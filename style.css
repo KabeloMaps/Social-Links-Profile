@@ -26,7 +26,7 @@ img {
   border-radius: 10px;
 
   background-color: hsl(0, 0%, 12%);
-  padding: 2rem;
+  padding: 3rem;
 }
 
 img {
@@ -43,26 +43,42 @@ h1 {
   font-family: "Inter-Regular";
   color: aliceblue;
   font-size: 23px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-top: 25px;
 }
 
 #highlighted {
-  color: hsl(75, 94%, 57%);
+  color: hsl(75, 90%, 57%);
   font-size: 14px;
-  padding: 0;
+  width: 100%;
+  text-align: center;
   margin: 0;
-}
-
-#whiteheader {
-  color: hsl(0, 0%, 100%);
-  font-size: 14px;
+  padding: 10px;
 }
 
 #subHeading {
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 75%);
   font-size: 14px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 20px;
 }
+
 #subgroup {
   color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  padding: 15px;
+  border: 1px solid hsl(0, 0%, 20%);
+  box-sizing: border-box;
+
+  margin: 5.5px;
+  border-radius: 0.5rem;
+  padding-left: 55px 0 0 0;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
   font-size: 14px;
-  border: 25px solid yellow;
 }
