@@ -81,4 +81,10 @@ h1 {
   width: 100%;
   display: inline-block;
   font-size: 14px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+#subgroup:hover {
+  background-color: hsl(75, 94%, 57%);
 }
